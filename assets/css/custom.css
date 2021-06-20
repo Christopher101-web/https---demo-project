@@ -35,6 +35,15 @@
     padding: 15px;
 }
 
+/* Line Decoration */
+
+.line-dec-1{
+    max-width: 900px;
+    height: 3px;
+    background-color: coral;
+    margin: 20px 0;
+    margin: auto;
+}
 
 
 
