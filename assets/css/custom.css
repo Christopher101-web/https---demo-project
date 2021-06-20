@@ -15,14 +15,14 @@
 
 /* Demonstration */
 
-.demo-heading h1{
-    text-align: center;
-}
-
 .container-shirt{
     width: 100%;
     background-color: azure;
     padding: 15px;
+}
+
+.container-shirt h1{
+    text-align: center;
 }
 
 .container-shirt h2{
