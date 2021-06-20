@@ -1,3 +1,9 @@
+/* Front page gallery */
+
+.gallery-heading h1{
+    text-align: center;
+}
+
 .card{
     border-radius: 10px;
     box-shadow: 1px 1px gainsboro;
@@ -7,183 +13,28 @@
 	border-radius: 10px;
 }
 
+/* Demonstration */
+
 .demo-heading h1{
     text-align: center;
 }
 
-/* Container for shirt */
-
-.container-shirt-left{
-    width: 49%;
-    float: left;
-    height: 600px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px 2px gainsboro;
+.container-shirt{
+    width: 100%;
+    background-color: azure;
+    padding: 15px;
 }
 
-.container-shirt-left h3{
+.container-shirt h2{
     text-align: center;
-    padding-top: 20px;;
 }
 
-.container-shirt-left img{
-    height: 500px;
-    display: block;
-    margin: auto;
+.container-dress{
+    width: 100%;
+    background-color: blanchedalmond;
+    padding: 15px;
 }
 
-
-
-.container-shirt-right{
-    width: 49%;
-    float: right;
-    height: 600px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px 2px gainsboro;
-}
-
-.container-shirt-right h3{
-    text-align: center;
-    padding-top: 20px;
-}
-
-.container-shirt-right img{
-    transform: scale(0.5);
-}
-
-#right-mid-sleeve-draggable{
-    position: absolute;
-    height: 500px;
-    top: 1400px;
-    left: 760px;
-    transform: scale(0.5);
-}
-
-#collar-draggable{
-    position: absolute;
-    height: 500px;
-    top: 1400px;
-    right: 65px;
-    transform: scale(0.5);
-}
-
-#left-mid-sleeve-draggable{
-    position: absolute;
-    height: 500px;
-    top: 1400px;
-    right: 40px;
-    transform: scale(0.5);
-}
-
-#left-sleeve-short-draggable{
-    position: absolute;
-    height: 500px;
-    top: 1400px;
-    right: 40px;
-    transform:scale(0.5);
-}
-
-#right-sleeve-short-draggable{
-    position: absolute;
-    height: 500px;
-    top: 1400px;
-    left: 760px;
-    transform:scale(0.5);
-}
-
-/* Container for dress */
-
-.container-dress-left{
-    margin-top: 15px;
-    width: 49%;
-    height: 600px;
-    float: left;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px 2px gainsboro;
-}
-
-.container-dress-right{
-    margin-top: 15px;
-    width: 49%;
-    height: 600px;
-    float: right;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px 2px gainsboro;
-}
-
-.container-dress-left h3{
-    text-align: center;
-    padding-top: 20px;;
-}
-
-.container-dress-right h3{
-    text-align: center;
-    padding-top: 20px;;
-}
-
-.container-dress-right img{
-    height: 500px;
-    display: block;
-    margin: auto;
-}
-
-#dress-top-draggable{
-    position: absolute;
-    top: 2000px;
-    left: 300px;
-    height: 500px;
-    transform: scale(0.5);
-}
-
-#dress-bottom-draggable{
-    position: absolute;
-    top: 2000px;
-    left: 30px;
-    height: 500px;
-    transform: scale(0.5);
-}
-
-#left-sleeve-draggable{
-    position: absolute;
-    top: 2400px;
-    left: 300px;
-    height: 500px;
-    transform: scale(0.5);
-}
-
-#left-sleeve-c-draggable{
-    position: absolute;
-    top: 2400px;
-    left: 400px;
-    height: 500px;
-    transform: scale(0.5);
-}
-
-#right-sleeve-draggable{
-    position: absolute;
-    top: 2400px;
-    left: 300px;
-    height: 500px;
-    transform: scale(0.5);
-}
-
-#right-sleeve-c-draggable{
-    position: absolute;
-    top: 2400px;
-    left: 400px;
-    height: 500px;
-    transform: scale(0.5);
-}
-
-.subscription-heading h1{
-    text-align: center;
-    color: #fff;
-
-}
 
 
 
