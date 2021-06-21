@@ -672,7 +672,7 @@ function init() {
         });
         
         $("#dress-top-draggable").draggable({
-          snap: "#sleeveless-dress-drop",
+          snap: "#dress-shortened-drop",
           drag: function () {
                   $("#dress-top-draggable").css("transform", "scale(1)");
           },
@@ -680,7 +680,7 @@ function init() {
         });
 
         $("#dress-bottom-draggable").draggable({
-          snap: "#sleeveless-dress-drop",
+          snap: "#dress-shortened-drop",
           drag: function () {
                   $("#dress-bottom-draggable").css("transform", "scale(1)");
           },
@@ -688,7 +688,7 @@ function init() {
         });
 
         $("#left-sleeve-draggable").draggable({
-          snap: "#sleeveless-dress-drop",
+          snap: "#dress-shortened-drop",
           drag: function () {
                   $("#left-sleeve-draggable").css("transform", "scale(1)");
           },
@@ -696,7 +696,7 @@ function init() {
         });
 
         $("#left-sleeve-c-draggable").draggable({
-          snap: "#sleeveless-dress-drop",
+          snap: "#dress-shortened-drop",
           drag: function () {
                   $("#left-sleeve-c-draggable").css("transform", "scale(1)");
           },
@@ -704,17 +704,17 @@ function init() {
         });
 
         $("#right-sleeve-draggable").draggable({
-          snap: "#sleeveless-dress-drop",
+          snap: "#dress-shortened-drop",
           drag: function () {
                   $("#right-sleeve-draggable").css("transform", "scale(1)");
           },
           snapMode: "inner"
         });
 
-        $("#right-sleeve-c-draggable").draggable({
-          snap: "#sleeveless-dress-drop",
+        $("#dress-extension-draggable").draggable({
+          snap: "#dress-shortened-drop",
           drag: function () {
-                  $("#right-sleeve-c-draggable").css("transform", "scale(1)");
+                  $("#dress-extension-draggable").css("transform", "scale(1)");
           },
           snapMode: "inner"
         });
