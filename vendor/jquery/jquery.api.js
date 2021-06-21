@@ -710,6 +710,14 @@ function init() {
           },
           snapMode: "inner"
         });
+    
+        $("#right-sleeve-c-draggable").draggable({
+          snap: "#dress-shortened-drop",
+          drag: function () {
+                  $("#right-sleeve-c-draggable").css("transform", "scale(1)");
+          },
+          snapMode: "inner"
+        });
 
         $("#dress-extension-draggable").draggable({
           snap: "#dress-shortened-drop",
