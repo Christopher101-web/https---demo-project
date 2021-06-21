@@ -29,16 +29,9 @@
     font-size: 20px;
 }
 
-.container-shirt{
-    width: 100%;
-    background-color: azure;
+.col-sm img{
     padding: 15px;
-}
-
-.container-dress{
-    width: 100%;
-    background-color: blanchedalmond;
-    padding: 15px;
+    align-content: center;
 }
 
 /* Line Decoration */
