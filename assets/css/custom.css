@@ -23,22 +23,16 @@
     text-align: center;
 }
 
-#centre{
+.col-sm{
     text-align: center;
-}
-
-#right{
-    text-align: right;
+    color: #fff;
+    font-size: 20px;
 }
 
 .container-shirt{
     width: 100%;
     background-color: azure;
     padding: 15px;
-}
-
-#tops-bottoms{
-    text-align: center;
 }
 
 .container-dress{
