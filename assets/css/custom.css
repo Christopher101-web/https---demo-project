@@ -25,13 +25,13 @@
 
 .col-sm{
     text-align: center;
-    color: #fff;
+
     font-size: 20px;
 }
 
-.col-sm img{
-    padding: 15px;
-    align-content: center;
+.container-fluid-1 img{
+    display: block;
+    margin: auto;
 }
 
 /* Line Decoration */
@@ -43,6 +43,7 @@
     margin: 20px 0;
     margin: auto;
 }
+
 
 
 
