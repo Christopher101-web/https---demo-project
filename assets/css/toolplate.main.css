@@ -55,6 +55,10 @@ a {
 	width: 100%;
 	position: relative;
 	padding: 15px 0px;
+    margin-bottom: 10px;
+}
+.navbar-brand img{
+	margin-top: 10px;
 }
 .bg-dark {
 	background-color: #fff!important;
