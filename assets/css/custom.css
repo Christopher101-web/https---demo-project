@@ -25,12 +25,17 @@
 
 .col-sm{
     text-align: center;
-    color: #fff;
+    color: #000;
     font-size: 20px;
+    margin-bottom: 15px;
 }
 
 .col-sm img{
     margin-top: 15px;
+}
+
+#desc{
+  font-weight: 900;
 }
 
 .container-fluid-1 img{
@@ -47,6 +52,22 @@
     margin: 20px 0;
     margin: auto;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
