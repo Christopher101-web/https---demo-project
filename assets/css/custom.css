@@ -19,29 +19,42 @@
     text-align: center;
 }
 
-.demo-headings h2{
+.demo-headings h3{
     text-align: center;
 }
 
-.col-sm{
-    text-align: center;
-    color: #000;
-    font-size: 20px;
-    margin-bottom: 15px;
+.container{
+   width: 100%;
 }
 
-.col-sm img{
-    margin-top: 15px;
+.col-span-4, .col-span-8{
+  border: 1px solid silver;
+  padding: 10px;
+  margin: 3px;
+  width: 263px;
+  border-radius: 5px;
+  box-shadow: 1px 1px gainsboro;
 }
 
-#desc{
-  font-weight: 900;
+
+.p-price, .p-offer, .p-qnt{
+  text-align: center;
 }
 
-.container-fluid-1 img{
-    display: block;
-    margin: auto;
+.col-span-4, .col-span-8 h2{
+  text-align: center;
 }
+
+.col-span-8 a{
+  display: block;
+  margin: auto;
+}
+
+.col-span-4 a{
+  display: block;
+  margin: auto;
+}
+
 
 /* Line Decoration */
 
